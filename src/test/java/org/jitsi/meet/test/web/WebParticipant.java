@@ -42,7 +42,6 @@ public class WebParticipant extends Participant<WebDriver>
      */
     private static final String DEFAULT_CONFIG
         = "config.requireDisplayName=false"
-            + "&config.debug=true"
             + "&config.testing.testMode=true"
             + "&config.disableAEC=true"
             + "&config.disableNS=true"
@@ -51,9 +50,7 @@ public class WebParticipant extends Participant<WebDriver>
             + "&config.alwaysVisibleToolbar=true"
             + "&config.p2p.enabled=false"
             + "&config.p2p.useStunTurn=false"
-            + "&config.pcStatsInterval=1500"
             + "&config.prejoinPageEnabled=false"
-            + "&config.gatherStats=true"
             + "&config.disable1On1Mode=true"
             + "&config.analytics.disabled=true"
             + "&interfaceConfig.SHOW_CHROME_EXTENSION_BANNER=false"
